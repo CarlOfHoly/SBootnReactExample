@@ -37,7 +37,7 @@ export const Group: React.FC<Props> = () => {
                     <Input label="Gruppe" name="group" onChange={handleChange}/>
                     <Select label="Lyst på is?" name="likesIceCream" onChange={handleChange}>
                         <option value="true">True</option>
-                        <option value="fasle">False</option>
+                        <option value="false">False</option>
                     </Select>
                     <Knapp onClick={handleSubmit}>Send inn!</Knapp>
                 </SkjemaGruppe>
